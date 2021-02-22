@@ -5,8 +5,9 @@
 Vue.component('custom-header', {
   template: `
     <header>
-      <h1>Mr. & Mrs. Shannon 2021!</h1>
-      <h2> 
+      <div id="header">
+        <h1>Mr. & Mrs. Shannon 2021!</h1>
+      </div>  
     </header>`
 })
 
@@ -65,26 +66,62 @@ Vue.component('custom-info', {
   template: `
   <main>
     <div id="detail">
-      <h2>Save the Date! </h2>
-      <h4>Wedding of Tylor Shannon & Hannah Givens</h4>
-      <p class="decoration"> — —    ♥♥♥    — — </p>
-      <p>November 14th, 2021   </p>
-      <p>Arrival 3:00pm, Ceremony 3:30pm, Dinner 5:00pm </p>
-      <p class="decoration">— —    ♥♥♥    — — </p>
-      <p>Butler Acres, 22552 Hwy 24 Dover, Mo 64022 </p>
+      <div id="date"> 
+        <h2>Save the Date! </h2>
+        <h4>Wedding of Tylor Shannon & Hannah Givens</h4>
+        <p>November 14, 2021</p>
+      </div>
+     
+      <div id="schecule">
+        <h2> Schecule </h2>
+        <p>Arrival 3:00pm, Ceremony 3:30pm, Dinner 5:00pm, End 10:30pm </p>
+        <p class="decoration">— —    ♥♥♥    — — </p>
+      </div>
+      
 
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12368.295111753217!2d-93.6535954!3d39.1957723!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6aaa25fdde7dc700!2sButler%20Acres!5e0!3m2!1sen!2sus!4v1613977400365!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      
+      <div id="dinner">
+        <h2> Dinner Details </h2>
+        <p>There will be 2 dinner options:</p>
+        <p>Dinner One:Meatlofe </p>
+        <p> Dinner Two: Roast pork with gravy</p>
+        <p> side of potatos, green beans, corn, and a salad.</p>
 
-      <p class="decoration">— —     ♥♥♥    — — </p>
-      <p>R.S.V.P. by calling (417)-812-9989 or sending us mail, please include how many is attending and any food allergies.  </p>
-      <p class="decoration">— —    ♥♥♥    — — </p>
-      <p>Wedding registry at amazon.com/wedding. Go to find a registry, enter Hannah Givens and compare wedding information. </p>
-      <a class="btn btn-primary" href="https://www.amazon.com/wedding/registry/35DVPA6UP9J80?ref=wr_search_page_result_5" role="button">Wedding registry</a>
-      <p class="decoration">— —    ♥♥♥    — — </p>
-      <p>BYOB but some drinks will be provided.</p>
+        <p class="decoration">— —    ♥♥♥    — — </p>
+      </div>
+      
+      <div id="location">
+        <h2> Location </h2>
+        <p>Butler Acres, 22552 Hwy 24 Dover, Mo 64022 </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12368.295111753217!2d-93.6535954!3d39.1957723!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6aaa25fdde7dc700!2sButler%20Acres!5e0!3m2!1sen!2sus!4v1613977400365!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        <p class="decoration">— —     ♥♥♥    — — </p>
+      </div>
+      
+      <div id="rsvp">
+        <h2> Contact for R.S.V.P. </h2> 
+        <p>please include how many is attending and how many of each mael option and of any food algeries.</p>
+        <p>Phone Number: (417)-812-9989 or (417)812-9908</p>
+        <p>Email: givenshananh10@gmail.com </p>
+
+        <p class="decoration">— —    ♥♥♥    — — </p>
+      </div>
+      
+      <div id="registry">
+        <h2> Registry </h2>
+        <p>Wedding registry at amazon.com/wedding. Go to find a registry, enter Hannah Givens and compare wedding information. </p>
+        <a class="btn btn-primary" href="https://www.amazon.com/wedding/registry/35DVPA6UP9J80?ref=wr_search_page_result_5" role="button">Wedding registry</a>
+
+        <p class="decoration">— —    ♥♥♥    — — </p>
+        <p>BYOB but some drinks will be provided.</p>
+      </div>
+      
+
+      
     </div>
     <div id="about">
-    <h2>Our Story!</h2>
+      <h2>Our Story!</h2>
+      <p>Its a simple one, it gose how you would expect it to. It was 2017 I started at pizza hut and started to make new friends, Tylor being one of them. One thing lead to another and we find ourselfs flirting, then dating now where here! In 2019 we moved to Springfield MO so I could persue college. then in Oct. of 2020 during the pandemic we deceded to move forward! Now will will be combinding 2 families into one this November!  </p>
     </div>
   </main>`
 })

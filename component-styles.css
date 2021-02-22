@@ -1,12 +1,23 @@
-
+body{
+  background: grey;
+  margin: 5em;
+}
 /* custom-header */
 header {
+
   background: #ffb399;
+  margin-bottom: 2em;
   padding: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+  border-style: dotted;
+  border-color: white;
+  border-width: 10px;
 }
+
+
 
 header h1 {
   padding: 8px;
@@ -20,27 +31,67 @@ header h1 {
   flex-wrap: wrap;
   padding-left: 10%;
   padding-right: 10%;
+  margin-bottom: 2em;
+  border-style: dotted;
+  border-color: white;
+  border-width: 10px;
 }
 
 /* custom-main */
 main {
   background: #ffb399;
-  text-align: center;
+  text-align: justify;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-bottom: 2em;
+   border-style: dotted;
+  border-color: white;
+  border-width: 10px;
+}
+#details{
+ margin-bottom: 2em;
+   border-style: dotted;
+  border-color: white;
+  border-width: 10px;
+}
+#dinner{margin-bottom: 2em;
+   border-style: double;
+  border-color: white;
+  border-width: 10px;
+}
+
+#date{margin-bottom: 2em;
+   border-style: double;
+  border-color: white;
+  border-width: 10px;
+}
+
+#rsvp{margin-bottom: 2em;
+   border-style: double;
+  border-color: white;
+  border-width: 10px;
+}
+
+#about{
+ margin-bottom: 2em;
+   border-style: double;
+  border-color: white;
+  border-width: 10px;
 }
 
 .decoration{
   color: #800000;
+  text-align: center;
 }
 
 /* custom-footer */
 footer {
   background: #4d0000;
-  font-size: 16px;
   color: #ffb399;
   border-style: groove; 
 }
 
 footer p {
   text-align: center;
-  font-size: 18px;
+  font-size: 12px;
 }
